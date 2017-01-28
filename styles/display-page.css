@@ -5,7 +5,6 @@ main {
 }
 
 .container {
-	border: 1px solid black;
 	width: 800px;
 	/* To center the container in the page */
 	margin-left: auto;
@@ -15,4 +14,39 @@ main {
 .box {
 	display: inline-block;
 	font-size: 0;
+	border: 1px solid black;
+}
+
+/* Upper boxes */
+
+.upper.box {
+	width: 50%;
+	height: 200px;
+}
+
+.green.box {
+	background-color: green;
+}
+
+.blue.box {
+	background-color: blue;
+}
+
+/* Bottom boxes */
+
+.bottom.box {
+	height: 300px;
+	width: 33.33%;
+}
+
+.grey.box {
+	background-color: grey;
+}
+
+.black.box {
+	background-color: black;
+}
+
+.orange.box {
+	background-color: orange;
 }
