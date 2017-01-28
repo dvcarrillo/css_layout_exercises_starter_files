@@ -1,7 +1,18 @@
 main {
 	padding: 50px;
+	/* Used to prevent white spaces between boxes */
+	font-size: 0;
 }
 
 .container {
+	border: 1px solid black;
+	width: 800px;
+	/* To center the container in the page */
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.box {
+	display: inline-block;
+	font-size: 0;
 }
