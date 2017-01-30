@@ -1,1 +1,30 @@
+/*Fixed navbar*/
+nav {
+	position: relative;
+	text-align: left;
+	background-color: grey;
+	padding: 10px;
+	height: 70px;
+}
 
+nav img {
+	position: absolute;
+	left: 30px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+nav ul {
+	position: absolute;
+	left: 70px;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+}
+
+nav li::after {
+	content: " | ";
+}
