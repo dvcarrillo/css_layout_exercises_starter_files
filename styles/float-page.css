@@ -10,3 +10,16 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+/*Float property on images*/
+.left {
+	width: 300px;
+	float: left;
+	margin: 15px;
+}
+
+.right {
+	width: 300px;
+	float: right;
+	margin: 15px;
+}
